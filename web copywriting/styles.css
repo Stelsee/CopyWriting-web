@@ -1,0 +1,60 @@
+body {
+   /* font-family: Arial, sans-serif;*/
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24292e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    margin: 20px;
+    background-color: #ffffff;
+    transform: scale(1);
+    transition: transform 0.3s; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+footer {
+    background-color: #24292e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+section {
+    transform: scale(1); /* Состояние по умолчанию */
+    transition: transform 0.3s; /* Плавное анимированное изменение для hover */
+}
+
+section:hover {
+    transform: scale(1.05); /* Увеличиваем размер на 5% при наведении */
+}
